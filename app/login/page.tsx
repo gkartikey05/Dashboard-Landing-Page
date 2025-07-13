@@ -2,8 +2,6 @@
 
 import { useForm } from "react-hook-form";
 import { useState } from "react";
-import Image from "next/image";
-import LOGO from './assets/logo.png'
 
 type FormData = {
   email: string;
@@ -32,7 +30,6 @@ export default function LoginForm() {
     <div className="flex items-center justify-center min-h-screen bg-[#c8c9cf]">
       <div className="flex flex-wrap items-center justify-between p-6 bg-white rounded-3xl shadow-lg w-[90%]">
         <div className="flex-grow relative w-[50%] pl-24 mb-[-4rem] -top-4">
-          <Image alt="" src={LOGO} className="w-32 relative left-[135px]" />
           <h1 className="text-3xl font-medium mt-6 mb-1">Welcome Back! &#9996;&#127995;</h1>
           <p className="text-xs font-medium mb-6">Enter your credentials to access your account</p>
 
