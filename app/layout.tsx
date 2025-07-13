@@ -5,9 +5,11 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Lead Management Admin",
-  description: "Admin panel for lead management system",
-    generator: 'v0.dev'
+  title: "Dashboard Landing Page | Kartikey Gupta",
+  description: "This is a Dashboard Landing Page for Admins to get all the updates regarding their expenses, revenue, profit & loss and can also generate reports of them easily",
+  icons: {
+    icon: "/favicon.ico"
+  }
 }
 
 export default function RootLayout({
@@ -21,7 +23,5 @@ export default function RootLayout({
     </html>
   )
 }
-
-
 
 import './globals.css'
